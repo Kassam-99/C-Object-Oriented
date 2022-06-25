@@ -3,39 +3,55 @@
 using namespace std;
 
 
+// Use the switch statement to select one of many code blocks to be executed.
+/*
+This is how it works:
+
+    The switch expression is evaluated once.
+    The value of the expression is compared with the values of each case.
+    If there is a match, the associated block of code is executed.
+    The break and default keywords are optional.
+    
+    
+When C++ reaches a break keyword, it breaks out of the switch block.
+
+The example below:
+*/
+
+
 int main()
 {
-    int day;
+    int word;
     cout << "Enter a number from 1 to 7: ";
-    cin >> day;
-    switch (day)
+    cin >> word;
+    switch (word)
     {
     case 1:
-    cout << "Monday" << endl;
+    cout << "Hello" << endl;
         break;
 
     case 2:
-    cout << "Tuseday" << endl; 
+    cout << "Welcome" << endl; 
         break;
 
     case 3:
-    cout << "Wednesday" << endl;
+    cout << "We Love C++" << endl;
         break;
 
     case 4:
-    cout << "Thursday" << endl;
+    cout << "Hi" << endl;
         break;
 
     case 5:
-    cout << "Friday" << endl;
+    cout << "Let's code" << endl;
         break;
 
     case 6:
-    cout << "Saturday" << endl;
+    cout << "Never Mind " << endl;
         break;
 
     case 7:
-    cout << "Sunday" << endl;
+    cout << "College" << endl;
         break;
 
     default:
