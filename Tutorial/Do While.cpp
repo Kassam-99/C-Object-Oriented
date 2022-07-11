@@ -23,3 +23,15 @@ int main(){
     return 0;
 }
 //Do not forget to increase the variable used in the condition, otherwise the loop will never end.
+
+int main(){
+    int i = 0;
+    do {
+        cout << i << "\n";
+
+    }
+    while (i < 5);
+    return 0;
+}
+
+
