@@ -33,6 +33,7 @@ int main()
 //Keep in mind that failing to raise the variable utilized in the condition will result in an endless loop.
     
 }
+
 //--------------Example No.2--------------:
 int main()
 {
@@ -44,9 +45,6 @@ int main()
     }
  
 }
-
-
-
 
 //--------------Example No.3--------------:
 int main()
