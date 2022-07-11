@@ -29,8 +29,8 @@ int main()
 {
 
 
-    for (int i=0; i<5; i = i + 1){ 
-        cout << "Hello World"  << endl;     
+    for (int i=0; i<5; i = i + 1) { 
+        cout << "Hello World" << endl;     
         }
 
 }
@@ -50,8 +50,8 @@ int main()
 {
 
   
-    for (int i=0; i<5; i = i + 1){ 
-        cout << "Hello World"  << endl;     
+    for (int i=0; i<5; i = i + 1) { 
+        cout << "Hello World" << endl;     
         }
 
 }
@@ -64,7 +64,7 @@ int main()
 {
 
 
-    for (int i=1; i<5; ++1){ 
+    for (int i=1; i<5; ++1) { 
         cout << "Hello World"  << endl;     
         }
 
@@ -78,8 +78,70 @@ int main()
 {
 
 
-    for (int i=-1; i<5; i = i + 1){ 
+    for(int i=-1; i<5; i = i + 1) { 
         cout << "Hello World"  << endl;     
         }
 
 }
+
+
+
+
+//-----------Example No.5------------:
+int main()
+{
+
+    int i=0;
+    for( ; i<=5; ++i) { 
+        cout << "Hello World"  << endl;     
+        }
+
+}
+
+
+
+
+//-----------Example No.6------------:
+int main()
+{
+
+    int i=0;
+    for( ; i<=5; ) { 
+        cout << "Hello World"  << endl;
+        ++i;
+        }
+
+}
+
+
+
+
+//-----------Example No.7------------:
+int main()
+{
+
+    int i=0;
+  // Will be compare i to the condition, then will add 1 to the i.
+    for( ; ++i<=5; ) { 
+        cout << "Hello World"  << endl;
+        }
+
+}
+
+
+
+
+//-----------Example No.8------------:
+int main()
+{
+
+    int i=0;
+  // Add 1 to the i, then will be compared to the condition.
+    for( ; i++<=5; ) { 
+        cout << "Hello World"  << endl;
+        }
+
+}
+
+
+
