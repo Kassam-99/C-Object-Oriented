@@ -24,6 +24,9 @@ int main(){
 }
 
 
+
+
+//----------------Example No.2----------------:
 //Do not forget to increase the variable used in the condition, otherwise the loop will never end.
 int main(){
     int i = 0;
@@ -35,4 +38,33 @@ int main(){
     return 0;
 }
 
+
+
+
+//----------------Example No.3----------------:
+/* !! This Code will never execute with while loop !!:
+because zero is not greater than ten */
+
+int main(){
+    int i = 0;
+    while (i > 5); {
+        cout << i << "\n";
+        i++;
+
+    }
+    
+    return 0;
+}
+
+// But with Do Loop, the code will execute one time only:
+
+int main(){
+    int i = 0;
+    do {
+        cout << i << "\n";
+
+    }
+    while (i > 5);
+    return 0;
+}
 
