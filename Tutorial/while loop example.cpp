@@ -20,3 +20,16 @@ Loops are useful because they speed up programming, lower mistake rates, and imp
 
   
 */
+
+//--------------Example No.1--------------:
+int main()
+{
+    int i = 0;
+    while (i < 5) {
+        cout << i << "\n";
+        i++;
+    }
+    
+//Keep in mind that failing to raise the variable utilized in the condition will result in an endless loop.
+    
+}
