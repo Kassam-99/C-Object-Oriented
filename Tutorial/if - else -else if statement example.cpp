@@ -2,18 +2,25 @@
 #include <string>
 using namespace std;
 /*
-C++ supports the usual logical conditions from mathematics:
+
+The typical mathematical logical conditions are supported by C++:
     Less than: a < b
     Less than or equal to: a <= b
     Greater than: a > b
     Greater than or equal to: a >= b
     Equal to a == b
     Not Equal to: a != b
-You can use these conditions to perform different actions for different decisions.
-C++ has the following conditional statements:
-    Use if to specify a block of code to be executed, if a specified condition is true
-    Use else to specify a block of code to be executed, if the same condition is false
-    Use else if to specify a new condition to test, if the first condition is false
+    
+These criteria can be used to do various actions for various choices.
+
+The following conditional statements can be used in C++:
+
+If you want to tell a block of code to run only if a certain condition is true, use the if statement.
+
+If the same condition is false, use else to describe a block of code that should be executed.
+
+If the first condition is false, use else if to define a new condition to test. 
+    
 */
 
 int main()
