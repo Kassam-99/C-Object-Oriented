@@ -16,6 +16,16 @@ Prior to the execution of the code block, statement 1 is run (one).
 The prerequisite for running the code block is stated in statement two.
 
 Following the execution of the code block, Statement 3 is executed (each time). 
+
+
+int main(){
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */
+    }
+}
+
+
 */
 
 #include <iostream>
