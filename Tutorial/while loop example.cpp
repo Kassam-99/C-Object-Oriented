@@ -26,7 +26,7 @@ int main()
 {
     int i = 0;
     while (i < 5) {
-        cout << i << "\n";
+        cout << i << endl;
         i++;
     }
     
@@ -39,7 +39,7 @@ int main()
 {
     int i = 1;
     while (i <= 3) {
-        cout << "Hello World No." << i << "\n";
+        cout << "Hello World No." << i << endl;
         i++;
 
     }
@@ -52,7 +52,7 @@ int main()
     int i = 0;
     int k;
     while (i < 1) {
-        cout << "I love you No." << k++ << "\n";
+        cout << "I love you No." << k++ << endl;
 
     }
  
