@@ -33,9 +33,22 @@ int main()
 //Keep in mind that failing to raise the variable utilized in the condition will result in an endless loop.
     
 }
-
-
 //--------------Example No.2--------------:
+int main()
+{
+    int i = 1;
+    while (i <= 3) {
+        cout << "Hello World No." << i << "\n";
+        i++;
+
+    }
+ 
+}
+
+
+
+
+//--------------Example No.3--------------:
 int main()
 {
     int i = 0;
@@ -45,5 +58,4 @@ int main()
 
     }
  
-
 }
